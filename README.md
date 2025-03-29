@@ -14,9 +14,10 @@ To integrate the banner, add the following <script> tag inside the <body> sectio
 
 Explanation of Attributes
 
-Attribute	          Description	                          Example Values	                                        Default
-src	                The URL of the banner.js file.	      http://localhost/banner_script/banner.js"	              Required
-data-api	          API URL that provides banner data.	  https://yourdomain.com/get_banner.php	                  Required
-data-position	      Where to place the banner on the page.  top, bottom, left, right                             	Optional
-data-width	        Width of the banner (in pixels).	      600 (Default) 											                  Optional
-data-height	        Height of the banner (in pixels).	      250 (Default)											                    Optional
+| **Attribute**     | **Description**                            | **Example Values**                        | **Default**    |
+|------------------|--------------------------------|--------------------------------|--------------|
+| **`src`**        | The URL of the `banner.js` file. | `http://localhost/banner_script/banner.js` | **Required** |
+| **`data-api`**   | API URL that provides banner data. | `https://yourdomain.com/get_banner.php` | **Required** |
+| **`data-position`** | Where to place the banner on the page. | `top`, `bottom`, `left`, `right` | **Optional** |
+| **`data-width`**  | Width of the banner (in pixels). | `600` | **600 (Default)** |
+| **`data-height`** | Height of the banner (in pixels). | `250` | **250 (Default)** |
