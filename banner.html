@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Banner</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        #banner-container {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        #banner-container a img {
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Banner Display</h1>
+    <div id="banner-container"  ></div>
+
+    <!-- Include banner.js -->
+    <script src="http://localhost/dynamic_banner/banner.js" 
+        data-api="http://localhost/dynamic_banner/get_banner.php"
+        data-container-id="banner-container"
+        data-width="600" 
+        data-height="250"
+        data-position="top"
+        >
+    </script>
+
+</body>
+</html>
